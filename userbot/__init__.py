@@ -126,7 +126,7 @@ if bool(ENV):
 
     # Updater
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-
+    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
     DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
